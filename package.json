@@ -1,0 +1,20 @@
+{
+  "name": "har-to-excel",
+  "version": "1.0.4",
+  "description": "parse your given har files,then build a excel file based on that file",
+  "main": "index.js",
+  "bin": {
+    "hte": "bin/har_to_excel"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.11.2",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

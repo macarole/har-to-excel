@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+console.log ( 'hello har to excel' )
+const hte = require ( '../index' );
+let argv = require ( 'yargs' )
+        .options ( 'src' , {
+                alias : 's' ,
+                demand : true ,
+                describe : 'source path of har files'
+        } )
+        .example ( 'hte --src c:/result.xlsx' )
+        .alias ( 'h' , 'help' )
+        .help ( 'h' )
+        .argv;
+if ( argv.src ) {
+        hte.parse ( argv.src );
+        console.log ( '已经成功了' )
+}
