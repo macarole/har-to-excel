@@ -1,6 +1,6 @@
 {
   "name": "har-to-excel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "parse your given har files,then build a excel file based on that file",
   "main": "index.js",
   "bin": {
